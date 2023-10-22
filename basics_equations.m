@@ -2,7 +2,7 @@
 
 clc;
 clearvars;
-closeall;
+close all;
 
 x = linspace(0,5); % 100 values by default
 y = (-(x-3).^2 )+10;
@@ -16,6 +16,5 @@ maxX = x(maxValueIndex); % value of x for maximum value of y.
 
 y = @(x) (-(x-3).^2+10); % anonymous function y
 y(3) % value of y when x=3
-
 
 
